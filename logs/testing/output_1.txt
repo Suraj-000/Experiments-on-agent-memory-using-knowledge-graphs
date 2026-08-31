@@ -1,0 +1,30 @@
+Logging started at -  logs/testing/output_1.txt
+Using device: cuda
+****************************************************************************************************
+Loading tokenizer...
+Loading model...
+Creating pipeline...
+Before HFPipeline
+After HFPipeline
+
+ === Using model ./local-Qwen3-14B-Instruct === 
+
+****************************************************************************************************
+
+[Conversation metadata: ID 0]
+Speakers: ['Caroline', 'Melanie']
+Num Sessions: 19 | Num QA's: 199
+
+Running LLM Summariser...
+Finished LLM Summariser.
+--------------------------------------------------
+Running Summriser QA...
+Finished QA.
+--------------------------------------------------
+Running LLM Judge...
+Total Questions: 199 | Sum: 76.40 | Average: 0.38
+Finished LLM Judge.
+--------------------------------------------------
+****************************************************************************************************
+Total execution time: 8.73 minutes
+****************************************************************************************************

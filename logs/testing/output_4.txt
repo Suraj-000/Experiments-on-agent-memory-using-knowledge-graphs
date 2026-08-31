@@ -1,0 +1,59 @@
+Logging started at -  logs/testing/output_4.txt
+Using device: cuda
+****************************************************************************************************
+Loading tokenizer...
+Loading model...
+Creating pipeline...
+Before HFPipeline
+After HFPipeline
+
+ === Using model ./local-Qwen3-14B === 
+
+****************************************************************************************************
+
+ Conversation meta data: ID 0 
+                 Speakers: ['Caroline', 'Melanie'] 
+                 Num Sessions: 19, Num QA's: 199 
+             
+Number of chunks created: 163
+Extracting graph elements from 163 chunks
+Graph elements already exists
+
+
+Building knowledge graph
+
+ Knowledge graph built: 191 entities, 223 relationships
+Total execution time: 5.77 minutes
+Indexing 191 entities, 223 relationships, 163 chunks...
+In dual_level_qa
+Extracting question keywords
+Done with questions
+Retrieving context for all questions
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "What did Caroline research?" First, I need to figure out the keywords for both low and high levels.\n\nFor low-level keywords, the question mentions "Caroli'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "What activities does Melanie partake in?" First, I need to extract the low-level keywords. The question mentions "Melanie," so that\'s a specific name. The'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "When did Caroline have a picnic?" So I need to extract low-level and high-level keywords from this question.\n\nFirst, the low-level keywords. These are spe'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s tackle this query. The user is asking, "When did Melanie go camping in July?" First, I need to extract the low-level and high-level keywords.\n\nFor low-level keywords, the specific '
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "What did Melanie paint recently?" I need to extract low-level and high-level keywords for a dual-retrieval system.\n\nFirst, low-level keywords are specific'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s tackle this query. The user is asking about Caroline\'s participation in the LGBTQ community. First, I need to extract the low-level keywords. The name "Caroline" is specific, so th'
+[_robust_json_parse keywords] no dict found. Raw: "<think>\nOkay, let's tackle this query. The user is asking when Caroline and Melanie went to a pride festival together. First, I need to extract the low-level keywords. The names Caroline and Melanie a"
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "When did Caroline go biking with friends?" So I need to extract low-level and high-level keywords from this question.\n\nFirst, low-level keywords are speci'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "What book did Melanie read from Caroline\'s suggestion?" So first, I need to extract the low-level and high-level keywords.\n\nFor low-level keywords, the sp'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "When did Melanie\'s friend adopt a child?" I need to extract low-level and high-level keywords from this question.\n\nFirst, the low-level keywords should be'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "When did Melanie get hurt?" So I need to extract low-level and high-level keywords.\n\nFirst, the low-level keywords. The question mentions "Melanie" and "g'
+[_robust_json_parse keywords] failed after fallback. Raw: '<think>\nOkay, let\'s see. The user is asking, "What items has Melanie bought?" So first, I need to extract the low-level and high-level keywords.\n\nFor low-level keywords, the specific entities mentione'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s tackle this query. The user is asking how Melanie prioritizes self-care. First, I need to extract the low-level keywords. The name "Melanie" is specific, so that\'s a low-level keyw'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "What workshop did Caroline attend recently?" So, first, I need to extract the low-level and high-level keywords.\n\nLow-level keywords are specific entities'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s tackle this query. The user is asking, "What inspired Caroline\'s painting for the art show?" First, I need to extract both low-level and high-level keywords.\n\nFor low-level keyword'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "Who is Melanie a fan of in terms of modern music?" First, I need to extract the low-level and high-level keywords.\n\nFor low-level keywords, the question m'
+[_robust_json_parse keywords] no dict found. Raw: "<think>\nOkay, let's tackle this query. The user is asking about a specific painting that Melanie showed to Caroline on October 13, 2023. First, I need to identify the low-level and high-level keywords"
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s tackle this query. The user is asking, "What did Melanie do after the road trip to relax?" First, I need to extract the low-level and high-level keywords.\n\nFor low-level keywords, '
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "What kind of place does Melanie want to create for people?" First, I need to extract the low-level and high-level keywords.\n\nLow-level keywords are specif'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s tackle this query. The user is asking, "What are the new shoes that Caroline got used for?" First, I need to extract the low-level and high-level keywords.\n\nStarting with low-level'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s tackle this query. The user is asking, "What did Melanie see at the council meeting for adoption?" First, I need to extract the low-level and high-level keywords.\n\nStarting with lo'
+[_robust_json_parse keywords] no dict found. Raw: '<think>\nOkay, let\'s see. The user is asking, "Who is Caroline a fan of in terms of modern music?" So first, I need to extract the low-level and high-level keywords.\n\nLow-level keywords are specific en'
+Doing QA
+Done with dual-level QA.
+Total Questions: 199, sum_scores: 76.4, average: 0.3839195979899498
+****************************************************************************************************
+Total execution time: 27.34 minutes
+****************************************************************************************************

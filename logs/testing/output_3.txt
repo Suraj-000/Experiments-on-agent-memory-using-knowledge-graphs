@@ -1,0 +1,41 @@
+Logging started at -  logs/testing/output_3.txt
+Using device: cuda
+****************************************************************************************************
+Loading tokenizer...
+Loading model...
+Creating pipeline...
+Before HFPipeline
+After HFPipeline
+
+ === Using model ./local-Qwen3-14B-Instruct === 
+
+****************************************************************************************************
+
+[Conversation metadata: ID 0]
+Speakers: ['Caroline', 'Melanie']
+Num Sessions: 19 | Num QA's: 199
+
+
+ Building RAG Database
+Number of chunks created: 211
+in extract entities: batching 211 chunks
+len of outputs : 211
+[extract_entities] chunk 17 produced no valid entities
+[extract_entities] chunk 21 produced no valid entities
+[extract_entities] chunk 59 produced no valid entities
+total unique entities extracted : 751
+Building dense (FAISS) retriever...
+Building sparse (BM25) retriever...
+Combining into ensemble hybrid retriever...
+
+ Done building rag db
+In Hybrid rag qa
+Finished QA.
+--------------------------------------------------
+Running LLM Judge...
+Total Questions: 199 | Sum: 83.00 | Average: 0.42
+Finished LLM Judge.
+--------------------------------------------------
+****************************************************************************************************
+Total execution time: 3.98 minutes
+****************************************************************************************************
